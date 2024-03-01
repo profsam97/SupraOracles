@@ -20,3 +20,6 @@ Where **main.py** is the name of the script and **test_calculator.py** is the na
 
 you can either run it by specifying the name of the test suite on the terminal or by 
 editing the default test path on **line 49** in **main.py**
+
+## Viewing the Test report
+After running the test report, a report will be generated in html, you can view this by opening the report in the browser.
