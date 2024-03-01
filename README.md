@@ -16,7 +16,7 @@ To begin the test, you need to run the python common with the name of the script
 ```bash
 python main.py test_calculator.py
 ```
-Where main.py is the name of the script and test_calculator.py is the name of the test suite.
+Where **main.py** is the name of the script and **test_calculator.py** is the name of the test suite.
 
 you can either run it by specifying the name of the test suite on the terminal or by 
-editing the default test path on line 49 in main.py
+editing the default test path on **line 49** in **main.py**
