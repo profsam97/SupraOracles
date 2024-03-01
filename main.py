@@ -11,7 +11,7 @@ def execute_test_cases(test_cases):
     except Exception as e:
         print('Error executing test cases:', e)
 
-# Function to generate a detailed report highlighting the pass/fail status of each test case
+# This is the function to generate a detailed report which highlights the pass/fail status of each test case
 def generate_report():
     try:
         # Get the current date and time for report timestamp
@@ -25,6 +25,16 @@ def generate_report():
             <style>
             body {
                 text-align: center;
+            }
+            h1 {
+                font-size: 24px
+                font-weight: bold
+            }
+            p {
+                font-size: 18px
+            }
+            h2 {
+                font-size: 20px
             }
             </style>
             """)
