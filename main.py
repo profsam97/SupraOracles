@@ -45,7 +45,7 @@ def generate_report():
 
 # Main function to orchestrate the test execution and report generation process
 def main():
-    test_cases_file = sys.argv[1] if len(sys.argv) > 1 else 'test_cases.txt'
+    test_cases_file = sys.argv[1] if len(sys.argv) > 1 else 'test_calculator.py'
     try:
         with open(test_cases_file, 'r') as file:
             test_cases = file.read().splitlines()
